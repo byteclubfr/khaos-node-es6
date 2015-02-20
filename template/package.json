@@ -1,0 +1,25 @@
+{
+  "name": "{{basename}}",
+  "version": "1.0.0",
+  "description": "{{description}}",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --check-leaks",
+    "prepublish": "babel --source-maps --out-dir lib src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/{{repository}}.git"
+  },
+  "author": "{{author}}",
+  {{#mit}}"license": "MIT",{{/mit}}
+  "bugs": {
+    "url": "https://github.com/{{repository}}/issues"
+  },
+  "homepage": "https://github.com/{{repository}}",
+  "devDependencies": {
+    "babel": "^4.3.0",
+    "expect": "^1.6.0",
+    "mocha": "^2.1.0"
+  }
+}
