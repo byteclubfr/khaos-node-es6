@@ -1,6 +1,6 @@
 # khaos-node-es6
 
-A Khaos template to start a Node project using ES6 (EcmaScript 2015) syntax.
+A [Khaos](https://github.com/segmentio/khaos) template to start a Node project using ES6 (EcmaScript 2015) syntax.
 
 ## Installation
 
